@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White house shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 L20,50 L30,50 L30,85 L78,85 L78,50 L88,50 Z"/>
+
+    <!-- Door -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M44,65 L44,85 L64,85 L64,65 Q54,58 44,65 Z"/>
+
+</vector>

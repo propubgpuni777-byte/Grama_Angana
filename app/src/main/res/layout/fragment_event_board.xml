@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_light"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📢 Event Board"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvTodayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvNoEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎉 No events scheduled for today"
+        android:textSize="15sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
